@@ -8,22 +8,9 @@ import ViewImageScreen from './app/screens/ViewImageScreen';
 import WelcomeScreen from './app/screens/WelcomeScreen';
 import AppText from './app/components/AppText';
 import AppButton from './app/components/AppButton';
+import Card from "./app/components/Card";
+import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
 
 export default function App() {
-  return <WelcomeScreen />
-  // (
-  // < View
-  //   style={{
-  //     flex: 1,
-  //     justifyContent: "center",
-  //     alignItems: "center",
-  //   }}
-  // >
-  //   <MaterialCommunityIcons 
-  //     name="email"
-  //     size={60} />
-  //     <AppText>I love react native</AppText>
-  //   <AppButton title="Login" onPress={() => console.log("Tapped")} />
-  // </View>
-  // );
+  return < ListingDetailsScreen />;
 }
